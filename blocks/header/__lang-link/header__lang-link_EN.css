@@ -1,0 +1,60 @@
+.header__lang-link_EN {
+    position: absolute;
+    color: #FFFFFF;
+    height: 28px;
+    width: 29px;
+    right: 0;
+    top: 46px
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    src: local('Inter'),
+        url("Inter-Thin.woff2?v=3.19") format("woff2"),
+        url("Inter-Thin.woff?v=3.19") format("woff");
+}   
+
+.header__lang-link_EN {
+        font-family: 'inter';
+        position: absolute;
+        color: #FFFFFF;
+        height: 28px;
+        width: 29px;
+        right: 24px;
+        top: 46px
+    }
+
+
+@media screen and (min-widht: 768px) and (max-widht: 1280px) {
+    .header__lang-link_EN {
+        position: absolute;
+        color: #FFFFFF;
+        height: 28px;
+        width: 29px;
+        right: 24px;
+        top: 46px
+    }
+}
+
+
+@media screen and (min-widht: 425px) and (max-widht: 768px) {
+    .header__lang-link_EN {
+        position: absolute;
+        color: #FFFFFF;
+        height: 28px;
+        width: 29px;
+        right: 0;
+        top: 46px
+    }
+}
+
+@media screen and (min-widht: 424px) {
+    .header__lang-link_EN {
+        position: absolute;
+        color: #FFFFFF;
+        height: 20px;
+        width: 22px;
+        right: 0;
+        top: 30px;
+    }
+}

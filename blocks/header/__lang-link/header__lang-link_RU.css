@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    src: local('Inter'),
+        url("Inter-Thin.woff2?v=3.19") format("woff2"),
+        url("Inter-Thin.woff?v=3.19") format("woff");
+}  
+    
+    .header__lang-link_RU {
+        font-family: 'inter';
+        position: absolute;
+        color: #FFFFFF;
+        height: 28px;
+        width: 30px;
+        right: calc(95px - 24px);
+        top: 46px;
+}
+    
+@media screen and (min-widht: 1024px) and (max-widht: 1280px) {
+    .header__lang-link_RU {
+        position: absolute;
+        color: #FFFFFF;
+        height: 28px;
+        width: 30px;
+        right: calc(95px - 24px);
+        top: 46px;
+    }
+    }
+
+@media screen and (min-widht: 768px) and (max-widht: 1024px) {
+    .header__lang-link_RU {
+        position: absolute;
+        color: #FFFFFF;
+        height: 28px;
+        width: 30px;
+        right: calc(95px - 24px);
+        top: 46px;
+    }
+    }
+
+@media screen and (min-widht: 425px) and (max-widht: 768px) {
+    .header__lang-link_RU {
+        position: absolute;
+        color: #FFFFFF;
+        height: 28px;
+        width: 29px;
+        right: calc(71px - 24px);
+        top: 46px
+    }
+    }
+
+@media screen and (max-widht: 425px) {
+    .header__lang-link_RU {
+        position: absolute;
+        color: #FFFFFF;
+        height: 20px;
+        width: 22px;
+        right: calc(56px - 16px);
+        top: 30px;
+    }
+    }

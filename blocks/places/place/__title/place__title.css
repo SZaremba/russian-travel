@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Inter'),
+         url("Inter-Black.woff2?v=3.19") format("woff2"),
+         url("Inter-Black.woff?v=3.19") format("woff");
+  }
+
+
+
+.place__title {
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 4.25;
+    height: 152px;
+    width: 460px;
+    margin: 0;
+    color: #FFFFFF;
+    border: 2px solid red;
+}
