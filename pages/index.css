@@ -35,14 +35,19 @@
 @import url(../blocks/photo-grid/_item/photo-grid_item_kamchatka-2.css);
 @import url(../blocks/photo-grid/_item/photo-grid_item_baikal-2.css);
 @import url(../blocks/photo-grid/_item/photo-grid_item_ergaki.css);
+
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/place/place.css);
 @import url(../blocks/places/place/__title/place__title.css);
 @import url(../blocks/places/place/__image/place__image.css);
-@import url(../blocks/places/place/__url-heading/place__url-heading.css);
-@import url(../blocks/places/place/__link/place__link.css);
+@import url(../blocks/places/place/__website/place__website.css);
+@import url(../blocks/places/place/__website/__url-heading/place__website__url-heading.css);
+@import url(../blocks/places/place/__website/__link/place__website__link.css);
 @import url(../blocks/places/place/__paragraph/place__paragraph.css);
-
-
-
-
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(./../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);

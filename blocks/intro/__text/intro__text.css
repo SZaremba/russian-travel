@@ -8,45 +8,45 @@
         url("Inter-Regular.woff?v=3.19") format("woff");
   }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 760px) {
     .intro__text {
         font-family: 'Inter';
         font-style:  normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        margin: 40px 0 33px;
         color: #FFFFFF;
-        width: 690px;
-        height: 208px;
+        width: 100%;
         border: 2px solid red;
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 420px) and (max-width: 760px) {
     .intro__text {
         font-family: 'Inter';
         font-style:  normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        margin: 40px 0 33px;
         color: #FFFFFF;
-        width: 690px;
-        height: 208px;
+        width: 100%;
         border: 2px solid red;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 420px) {
     .intro__text {
         font-family: 'Inter';
         font-style:  normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        width: 100%;
+        margin: 0;
+        margin: 40px 0 34px;
         color: #FFFFFF;
-        width: 690px;
-        height: 208px;
         border: 2px solid red;
     }
 }
-    
