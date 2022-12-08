@@ -1,47 +1,11 @@
-@media screen and (min-width: 1280px) {
-  .page {
-    margin: 0;
-    padding: 28px 48px 0;
-    background: #2A2C2F;
-  }
+.page {
+  margin: 0;
+  background-color: #2A2C2F;
+  font-family: 'Inter', sans-serif;
+  font-style:  normal;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
-
-@media screen and (min-width: 1020px) and (max-width: 1280px) {
-  .page {
-    margin: 0;
-    padding: 28px 48px 0;
-    background: #2A2C2F;
-  
-  }
-}
-
-@media screen and (min-width: 760px) and (max-width: 1020px) {
-  .page {
-    margin: 0;
-    background: #2A2C2F;
-    padding: 28px 24px 0;
-  }
-}
-@media screen and (min-width: 420px) and (max-width: 760px) {
-  .page {
-    margin: 0;
-    background: #2A2C2F;
-    padding: 16px 16px 0;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 420px) {
-  .page {
-    margin: 0;
-    background: #2A2C2F;
-    padding: 16px 16px;
-  }
-}
-
-
-
-
-
-
-
-

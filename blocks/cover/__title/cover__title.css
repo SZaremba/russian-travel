@@ -1,25 +1,41 @@
-@font-face {
-    @font-face {
-        font-family: 'Inter';
-        font-style:  normal;
-        font-weight: 900;
-        font-display: swap;
-        src: local('Inter'),
-            url("Inter-Black.woff2?v=3.19") format("woff2"),
-            url("Inter-Black.woff?v=3.19") format("woff");
-      } 
+.cover__title {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    Font-style: 900;
+    Font-size: 72px;
+    Line-height: 76px;
+    color: #FFFFFF;
+    max-width: 560px;
+    min-height: 152px;
+    text-align: center;
+    padding: 245px 340px 0;
+    margin: 0 auto;
+    
 }
 
-.cover__title {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    color: #FFFFFF;
-    text-decoration: none;
-    text-align: center;
-    border: 2px solid red;
-    width: 560px;
-    height: 152px;
+@media screen and (max-width: 1280px) {
+    .cover__title {
+        padding: 245px 340px 0;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .cover__title {
+        padding: 201.6px 190px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        padding: 113.6px 110px 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 1.09;
+        max-width: 288px;
+        min-height: 70px;
+        padding: 34px 16px 0;
+    }
 }

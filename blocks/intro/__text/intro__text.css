@@ -1,52 +1,38 @@
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
+.intro__text {
+    font-family: 'Inter', sans-serif;
+    font-style: Regular;
     font-weight: 400;
-    font-display: swap;
-    src: local('Inter'),
-        url("Inter-Regular.woff2?v=3.19") format("woff2"),
-        url("Inter-Regular.woff?v=3.19") format("woff");
-  }
+    font-size: 16px;
+    line-height: 1.63;
+    margin: 0;
+    padding: 40px 0 33px;
+    max-width: 100vw;;
+    min-height: 208px;
+    color: #FFFFFF;
+}
 
-@media screen and (min-width: 760px) {
+
+@media screen and (min-width: 1180px) {
     .intro__text {
-        font-family: 'Inter';
-        font-style:  normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        margin: 40px 0 33px;
-        color: #FFFFFF;
-        width: 100%;
-        border: 2px solid red;
+        max-width: 690px;
+        min-height: 208px;
     }
 }
 
-@media screen and (min-width: 420px) and (max-width: 760px) {
+/*
+@media screen and (max-width: 768px) {
     .intro__text {
-        font-family: 'Inter';
-        font-style:  normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        margin: 40px 0 33px;
-        color: #FFFFFF;
-        width: 100%;
-        border: 2px solid red;
+        
+        max-width: 720px;
+        min-height: 208px;
     }
 }
-
-@media screen and (min-width: 320px) and (max-width: 420px) {
+*/
+@media screen and (max-width: 320px) {
     .intro__text {
-        font-family: 'Inter';
-        font-style:  normal;
-        font-weight: 400;
         font-size: 16px;
-        line-height: 1.5;
-        width: 100%;
-        margin: 0;
-        margin: 40px 0 34px;
-        color: #FFFFFF;
-        border: 2px solid red;
+        padding: 40px 0 34px;
+        max-width: 288px;
+        min-height: 520px;
     }
 }

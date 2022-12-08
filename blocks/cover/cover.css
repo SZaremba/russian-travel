@@ -1,8 +1,43 @@
 .cover {
+    background-image: url(../../Image/__background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-origin: border-box;
+    max-width: 1184px;
+    margin: 0 auto;
     position: relative;
-    width: 100%;
-    height: 740px;
-    border: 2px solid red;
-
+    object-position: center;
 }
 
+
+@media screen and (max-width: 1280px) {
+    .cover {
+        background-image: url(../../Image/__background_des.jpg);
+        min-height: 740px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        background-image: url(../../Image/__background_nout.jpg);
+        min-height: 640px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        background-image: url(../../Image/__background_pl.jpg);
+        min-height: 480px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .cover {
+        background-image: url(../../Image/__background_mobil.jpg);
+        min-height: 200px;
+        margin: 0;
+    }
+}

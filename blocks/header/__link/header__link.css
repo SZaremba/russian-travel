@@ -1,0 +1,10 @@
+.header__link {
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 425px) {
+    .header__link {
+        margin-top: 14px;
+    }
+}

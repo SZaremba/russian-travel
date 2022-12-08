@@ -1,77 +1,27 @@
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
+.lead__caption {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
     font-weight: 400;
-    font-display: swap;
-    src: local('Inter'),
-         url("Inter-Regular.woff2?v=3.19") format("woff2"),
-         url("Inter-Regular.woff?v=3.19") format("woff");
-  }
+    Font-size: 10px;
+    Line-height: 116%;
+    margin: 8px auto 0 0;
+    color: #FFFFFF;
+}
 
-  @media screen and (min-width: 1280px) {
+@media screen and (max-width: 1024px) {
     .lead__caption {
-        font-family: 'Inter';
-        font-style:  normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 1;
-        margin: 8px 0 0 0;
-        margin-right: calc(100% - 96.7px);
-        color: #FFFFFF
+        margin: 8px auto 0 0;
     }
 }
 
-  @media screen and (min-width: 1020px) and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
     .lead__caption {
-        font-family: 'Inter';
-        font-style:  normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 1;
-        margin: 8px 0 0 0;
-        margin-right: calc(100% - 96.7px);
-        color: #FFFFFF
+        margin: 8px auto 0 24px;
     }
 }
 
-  @media screen and (min-width: 760px) and (max-width: 1020px) {
+@media screen and (max-width: 425px) {
     .lead__caption {
-        font-family: 'Inter';
-        font-style:  normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 1;
-        margin: 8px 0 0 0;
-        margin-right: calc(100% - 96.7px);
-        color: #FFFFFF
+        margin: 8px auto 0 16px;
     }
 }
-
-  @media screen and (min-width: 420px) and (max-width: 760px) {
-    .lead__caption {
-        font-family: 'Inter';
-        font-style:  normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 1;
-        margin: 8px 0 0 0;
-        background: #2A2C2F;
-        margin-right: calc(100% - 96.7px);
-        color: #FFFFFF;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width: 420px) {
-    .lead__caption {
-        margin: 8px 190px 0 0;
-        font-family: 'Inter';
-        font-style:  normal;
-        font-weight: 400; 
-        font-size: 10px;
-        line-height: 1;
-        margin-top: 8px;
-        margin-right: calc(100% - 96.7px);
-        color: #FFFFFF;
-    }
-}
-

@@ -1,0 +1,16 @@
+.place__links {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    Font-size: 18px;
+    Line-height: 101%;
+    max-width: 484px;
+    align-self: end;
+    margin: 0;
+    color: #FFFFFF;
+    
+}
+
+.place__links:hover {
+    color: #176BFF;
+}
