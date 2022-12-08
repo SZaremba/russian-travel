@@ -28,6 +28,10 @@
 
 @media screen and (max-width: 680px) {
     .cover__subtitle {
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+        font-style: Regular;
+        font-size: 18px;
+        line-height: 22px;
         font-size: 14px;
         line-height: 16px;
         max-width: 288px;
