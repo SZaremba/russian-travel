@@ -1,0 +1,16 @@
+.place__links {
+    grid-area: 1 / 2 / 1;
+    margin: 0;
+    padding-left: 16px;
+    align-self: self-end;
+
+}
+
+@media screen and (max-width: 550px) {
+    .place__links {
+        max-width: 288px;
+        grid-area: 2 / 1;
+        min-height: 46px;
+
+    }
+}

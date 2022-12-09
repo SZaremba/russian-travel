@@ -1,22 +1,10 @@
 .place__paragraph {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 1.63em;
-    font-weight: 400;
     max-width: 484px;
     grid-column: 2;
     grid-row: 2;
     margin: 0 auto;
     color: #FFFFFF;
-    padding-bottom: 26px;
 
-}
-
-.place__paragraph:last-child {
-    padding-bottom: 0;
-    color: #FFFFFF;
-    margin: 0;
 }
 
 @media screen and (max-width: 1280px) {
@@ -42,7 +30,7 @@
 @media screen and (max-width: 768px) {
     .place__paragraph {
         max-width: 340px;
-        max-height: 340px;
+        max-height: 434px;
         grid-column: 2;
         grid-row: 2;
         color: #FFFFFF;
@@ -50,10 +38,10 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 650px) {
     .place__paragraph {
-        Font-size: 16px;
-        Line-height: 163%;
+        font-size: 16px;
+        line-height: 163%;
         max-width: 288px;
         grid-column: 1;
         grid-row: 4;
