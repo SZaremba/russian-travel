@@ -1,18 +1,18 @@
-.header__link_EN {
+.header__link-RU {
+    color: #FFFFFF;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: 400;
-    color: #FFFFFF;
     font-size: 24px;
     line-height: 96%;
     height: 28px;
-    width: 29px;
-    padding-left: 18px;
-    text-decoration: none;
+    width: 30px;
 }
 
 @media screen and (max-width: 425px) {
-    .header__link_EN {
+    .header__link-RU {
+        color: #FFFFFF;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
         font-size: 18px;
-        line-height: 91.81%;
-    }
+        line-height: 92%;
+    } 
 }
