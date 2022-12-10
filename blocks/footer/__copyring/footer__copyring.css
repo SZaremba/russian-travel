@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 600px) {
     .footer__copyring {
-       margin-left: 16px;
+       margin: 0 0 24px 16px;
     }
 }
