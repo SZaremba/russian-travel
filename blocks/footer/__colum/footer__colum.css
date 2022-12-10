@@ -12,10 +12,9 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
     .footer__colum {
         max-width: 720px;
-        margin-left: 24px;
     }
 }
 
