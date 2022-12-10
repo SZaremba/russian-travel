@@ -3,9 +3,8 @@
     flex-direction: row;
     max-width: 1184px;
     min-height: 18px;
-    margin: 0 0 0 48px;
+    margin: 0 auto;
 }
-
 
 @media screen and (max-width: 1020px) {
     .footer {
