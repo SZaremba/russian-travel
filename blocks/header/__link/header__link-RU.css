@@ -1,9 +1,9 @@
 .header__link-RU {
     color: #FFFFFF;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-style: 400;
-    font-size: 24px;
-    line-height: 96%;
+    font-weight: 400;
+    font-size: 24px; 
+    line-height: 28px; 
     height: 28px;
     width: 30px;
 }

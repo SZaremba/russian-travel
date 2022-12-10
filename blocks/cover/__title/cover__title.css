@@ -5,28 +5,21 @@
     line-height: 76px;
     color: #FFFFFF;
     max-width: 560px;
-    min-height: 152px;
     text-align: center;
-    padding: 245px 340px 0;
+    padding-top: 245px;
     margin: 0 auto;
     
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
     .cover__title {
-        padding: 245px 340px 0;
-    }
-}
-
-@media screen and (max-width: 1190px) {
-    .cover__title {
-        padding: 201.6px 190px 0;
+        padding-top: 201px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__title {
-        padding: 113.6px 110px 0;
+        padding-top: 113px;
     }
 }
 
@@ -35,7 +28,6 @@
         font-size: 32px;
         line-height: 35px;
         max-width: 288px;
-        min-height: 70px;
-        padding: 34px 16px 0;
+        padding-top: 34px;
     }
 }

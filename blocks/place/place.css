@@ -6,17 +6,16 @@
     grid-auto-flow: column;
     row-gap: 48px;
     column-gap: 40px;
-    margin: 0 auto;
-    padding: 0 148px 80px;
+    margin: 50px auto ;
+    padding: 0 ;
     max-width: 984px;
-    min-height: 660px;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
         grid-template-columns: minmax(440px, max-content), minmax(min-content, max-content);
         column-gap: 32px;
-        padding: 0 48px 50px;
+        padding: 0;
     }
 }
 
@@ -29,20 +28,19 @@
         grid-auto-flow: column;
         row-gap: 48px;
         max-width: 720px;
-        min-height: 434px;
         margin-top: 73px;
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .place {
         grid-template-rows: repeat(4, min-content);
         grid-auto-flow: row;
+        grid-auto-rows: auto;
         align-items: stretch;
         row-gap: 32px;
         padding: 0;
         max-width: 320px;
-        min-height: 964px;
         justify-items: flex-start;
         margin: 0 auto;
     }

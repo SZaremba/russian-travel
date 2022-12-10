@@ -5,8 +5,7 @@
     line-height: 36px;
     text-align: center;
     color: #FFFFFF;
-    height: 72px;
-    width: 640px;
+    max-width: 640px;
     margin: 0;
     padding: 32px 0 64px;
 }
@@ -14,13 +13,11 @@
 @media screen and (max-width: 768px) {
     .lead__subtitle {
         padding: 32px 0 56px;
-
     }
 }
 
 @media screen and (max-width: 650px) {
     .lead__subtitle {
-        min-height: 40px;
         max-width: 288px;
         font-size: 16px;
         line-height: 20px;

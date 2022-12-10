@@ -1,0 +1,15 @@
+.footer__copyring {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    color: #FFFFFF;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .footer__copyring {
+       margin-left: 16px;
+    }
+}

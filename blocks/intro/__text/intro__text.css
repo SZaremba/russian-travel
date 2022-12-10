@@ -4,26 +4,32 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    margin: 0;
+    margin: 0 0 0 148px;
     padding: 40px 0 33px;
     max-width: 690px;
-    min-height: 208px;
     color: #FFFFFF;
 }
 
 
-@media screen and (min-width: 1180px) {
+@media screen and (max-width: 1050px) {
     .intro__text {
         max-width: 690px;
-        min-height: 208px;
+        margin: 0 0 0 48px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .intro__text {
+        max-width: 720px;
+        margin: 0 0 0 24px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .intro__text {
         font-size: 16px;
+        margin: 0 0 0 16px;
         padding: 40px 0 34px;
         max-width: 288px;
-        min-height: 520px;
     }
 }

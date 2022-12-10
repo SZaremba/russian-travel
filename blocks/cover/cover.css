@@ -5,30 +5,32 @@
     background-size: cover;
     background-origin: border-box;
     max-width: 1184px;
+    min-height: 740px;
     position: relative;
     object-position: center;
-    margin: 90px auto 92px;
+    margin: 92px auto;
 }
 
 @media screen and (max-width: 1280px) {
     .cover {
         background-image: url(../../Image/__background_des.jpg);
-        min-height: 740px;
+        margin: 92px 48px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1050px) {
     .cover {
         background-image: url(../../Image/__background_nout.jpg);
         min-height: 640px;
-
+        max-width: 100%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .cover {
         background-image: url(../../Image/__background_pl.jpg);
         min-height: 480px;
+        max-width: 100%;
         margin: 90px 0 88px;
     }
 }
@@ -36,7 +38,8 @@
 @media screen and (max-width: 680px) {
     .cover {
         background-image: url(../../Image/__background_mobil.jpg);
-        min-height: 200px;
-        margin: 0;
+        min-height: 48px;
+        max-width: 100%;
+        margin: 66px auto 64px;
     }
 }
