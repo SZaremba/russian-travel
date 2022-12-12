@@ -1,13 +1,13 @@
 .footer {
     display: flex;
     flex-direction: row;
-    max-width: calc(100%-96px);
+    max-width: calc(100% - 96px);
     margin: 0 48px;
 }
 
 @media screen and (max-width: 1020px) {
     .footer {
-        max-width: calc(100%-48px);
+        max-width: calc(100% - 48px);
         margin: 0 24px;
     } 
 }
