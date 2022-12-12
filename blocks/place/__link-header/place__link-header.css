@@ -1,9 +1,10 @@
-.place__link-url {
+.place__link-header {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
+    text-transform: uppercase;
     color: #AAAAAA;
     margin: 0;
     padding-bottom: 12px;

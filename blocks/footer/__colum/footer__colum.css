@@ -1,6 +1,6 @@
 .footer__colum {
     display: flex;
-    margin: 0 auto 0 0;
+    margin: 0;
     font-size: 24px;
     line-height: 24px;
     padding-bottom: 24px;
@@ -9,12 +9,14 @@
 @media screen and (max-width: 1024px) {
     .footer__colum {
         max-width: 928px;
+        
     }
 }
 
 @media screen and (max-width: 920px) {
     .footer__colum {
         max-width: 720px;
+        margin: 0;
     }
 }
 
