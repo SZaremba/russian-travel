@@ -13,3 +13,11 @@
         line-height: 26px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .place__paragraph-a {
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 19px;
+    }
+}
