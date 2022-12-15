@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-columns: minmax(min-content, 460px) minmax(min-content, max-content);
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
     grid-template-rows: min-content;
     justify-content: center;
     grid-auto-flow: column;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1180px) {
     .place {
-        grid-template-columns: repeat(auto-fill, minmax(min-content, max-content));
+        grid-template-columns: repeat(auto-fill, minmax(min-content, 456px));
         column-gap: 32px;
         width: calc(100% - 96px);
     }
@@ -22,7 +22,7 @@
 /*Я искал золотую серединк*/
 @media screen and (max-width: 800px) {
     .place {
-        grid-template-columns: repeat(auto-fill, minmax(340px, max-content));
+        grid-template-columns: repeat(auto-fill, minmax(min-content, 352px));
         grid-auto-flow: row;
         width: calc(100% - 48px);
         column-gap: 28px;
