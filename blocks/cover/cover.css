@@ -5,6 +5,7 @@
     background-size: cover;
     background-origin: border-box;
     max-width: 1184px;
+    max-width: 100%;
     min-height: 740px;
     position: relative;
     object-position: center;
@@ -22,7 +23,6 @@
     .cover {
         background-image: url(../../Image/__background_nout.jpg);
         min-height: 640px;
-        max-width: 100%;
     }
 }
 
@@ -30,7 +30,6 @@
     .cover {
         background-image: url(../../Image/__background_pl.jpg);
         min-height: 480px;
-        max-width: 100%;
         margin: 90px 0 88px;
     }
 }
@@ -39,7 +38,6 @@
     .cover {
         background-image: url(../../Image/__background_mobil.jpg);
         min-height: 48px;
-        max-width: 100%;
         margin: 66px auto 64px;
     }
 }

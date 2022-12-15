@@ -5,7 +5,6 @@
     max-width: 484px;
     margin: 0;
     padding-bottom: 26px;
-    border: 2px solid white;
 }
 
 .place__text:last-child {
@@ -15,8 +14,8 @@
 @media screen and (max-width: 768px) {
     .place__text {
         max-width: 340px;
-        line-height: 26.08px;
-        word-spacing: 0.3px;
+        line-height: 25.9px;
+        word-spacing: -2px;
         font-size: 16px;
         padding-bottom: 25px;
     }
