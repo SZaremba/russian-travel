@@ -8,6 +8,6 @@
     .place__links {
         max-width: 288px;
         grid-area: 2 / 1;
-        margin: 16px;
+        margin: 0 16px;
     }
 }

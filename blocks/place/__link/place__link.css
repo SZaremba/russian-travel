@@ -11,5 +11,6 @@
 }
 
 .place__link:hover {
-    color: #176BFF;
+    color: #FFFFFF;
+    opacity: .8;
 }

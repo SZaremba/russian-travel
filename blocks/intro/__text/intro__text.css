@@ -1,10 +1,10 @@
 .intro__text {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-style: regular;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    margin: 0 0 0 148px;
+    margin: 0;
     padding: 40px 0 33px;
     max-width: 690px;
     color: #FFFFFF;
@@ -13,23 +13,23 @@
 
 @media screen and (max-width: 1050px) {
     .intro__text {
-        max-width: 690px;
-        margin: 0 0 0 48px;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 860px) {
     .intro__text {
         max-width: 720px;
-        margin: 0 0 0 24px;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 425px) {
     .intro__text {
         font-size: 15px;
-        margin: 0 0 0 16px;
+        margin: 0;
         padding: 40px 0 34px;
         max-width: 288px;
+        word-spacing: 3.2px;
     }
 }

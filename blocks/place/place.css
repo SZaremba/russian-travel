@@ -1,47 +1,40 @@
 .place {
     display: grid;
-    grid-template-columns: minmax(460px, max-content), minmax(min-content, max-content);
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, max-content);
     grid-template-rows: min-content;
-    justify-items: stretch;
+    justify-content: center;
     grid-auto-flow: column;
     row-gap: 48px;
     column-gap: 40px;
-    margin: 50px auto;
-    padding: 0;
+    width: calc(100% - 296px);
     max-width: 984px;
+    margin: 80px auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
     .place {
-        grid-template-columns: minmax(440px, max-content), minmax(min-content, max-content);
+        grid-template-columns: repeat(auto-fill, minmax(min-content, max-content)) ;
         column-gap: 32px;
-        padding: 0;
+        width: calc(100% - 96px);
     }
 }
-
+/*Я искал золотую серединк*/
 @media screen and (max-width: 800px) {
-    .place {
+    .place {    
+        grid-template-columns: repeat(auto-fill, minmax(340px, max-content));
+        grid-auto-flow: row;
+        width: calc(100% - 48px);
         column-gap: 28px;
-        padding: 0 24px;
-        grid-template-columns: 340px, minmax(min-content, max-content);
-        grid-template-rows: min-content;
-        grid-auto-flow: column;
-        row-gap: 48px;
-        max-width: 720px;
-        margin-top: 73px;
-    }
+        margin: 73px auto 0;
+    }    
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
     .place {
-        grid-template-rows: repeat(4, min-content);
-        grid-auto-flow: row;
-        grid-auto-rows: auto;
-        align-items: stretch;
-        row-gap: 14px;
-        padding: 0;
-        max-width: 320px;
-        justify-items: flex-start;
-        margin: 0 auto;
+        grid-template-columns: repeat(auto-fill, 320px);
+        grid-template-rows: repeat(auto-fill 320px);
+        width: calc(100% - 32px);
+        row-gap: 32px;
+        margin: 50px auto;
     }
 }

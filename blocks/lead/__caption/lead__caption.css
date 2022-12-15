@@ -5,13 +5,17 @@
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 1.5px;
-    margin: 8px auto 0 0;
+    width: 100%;
+    max-width: 984px;
+    margin: 8px 0;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__caption {
-        margin: 8px auto 0 0;
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
@@ -23,6 +27,7 @@
 
 @media screen and (max-width: 425px) {
     .lead__caption {
+        width: calc(100% - 32px);
         margin: 8px auto 0 16px;
     }
 }

@@ -3,25 +3,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    margin: 0 0 0 auto;
+    margin: 0;
     color: #FFFFFF;
-    
-}
-
-@media screen and (max-width: 1279px) {
-    .footer__copyring {
-        margin: 0 0 0 auto;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .footer__copyring {
-        margin: 0 0 0 auto;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .footer__copyring {
-       margin: 0 0 24px 16px;
-    }
 }

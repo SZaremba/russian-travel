@@ -8,4 +8,11 @@
     color: #AAAAAA;
     margin: 0;
     padding-bottom: 12px;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__link-header {
+        padding-bottom: 7px;
+    }
 }
