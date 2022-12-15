@@ -5,7 +5,7 @@
     justify-content: center;
     gap: 16px;
     grid-template-columns: repeat(auto-fill, minmax(213px, 284px));
-    grid-auto-flow: repeat(auto-fill, 213px);
+    grid-auto-rows: repeat(auto-fill, 213px);
     margin: 92px auto;
 }
 
@@ -13,7 +13,7 @@
 @media screen and (max-width: 1024px) {
     .photo-grid {
         grid-template-columns: repeat(auto-fill, minmax(213px, 300px));
-        grid-auto-flow: repeat(auto-fill, 225px);
+        grid-template-rows: repeat(auto-fill, 225px);
         grid-auto-rows: 225px;
         gap: 14px;
     }
