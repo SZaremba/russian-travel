@@ -5,14 +5,12 @@
     justify-content: center;
     gap: 16px;
     grid-template-columns: repeat(auto-fill, minmax(213px, 284px));
-    grid-template-rows: repeat(auto-fill, 213px);
     margin: 92px auto;
 }
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
         grid-template-columns: repeat(auto-fill, minmax(213px, 300px));
-        grid-template-rows: repeat(auto-fill, 225px);
         grid-auto-flow: row;
         gap: 14px;
     }
@@ -21,7 +19,6 @@
 @media screen and (max-width: 768px) {
     .photo-grid {
         grid-template-columns: repeat(auto-fill, minmax(213px, 352px));
-        grid-template-rows: repeat(auto-fill, 264px);
         width: calc(100% - 48px);
         margin: 88px auto;
     }
@@ -30,7 +27,6 @@
 @media screen and (max-width: 425px) {
     .photo-grid {
         grid-template-columns: repeat(auto-fill, 288px);
-        grid-template-rows: repeat(auto-fill, 216px);
         width: calc(100% - 32px);
         gap: 12px;
         margin: 64px auto;

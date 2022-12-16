@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1024px) {
     .place__image {
-        max-width: 440px;
+        width: 440px;
         height: 440px;
 
     }
@@ -17,14 +17,14 @@
 
 @media screen and (max-width: 800px) {
     .place__image {
-        max-width: 340px;
+        width: 340px;
         height: 340px;
     }
 }
 
 @media screen  and (max-width: 650px) {
     .place__image {
-        max-width: 320px;
+        width: 320px;
         height: 320px;
         grid-row: 3;
         box-sizing: border-box;

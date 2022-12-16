@@ -6,3 +6,10 @@
     margin: 0;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 600px) {
+    .footer__copyring {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
